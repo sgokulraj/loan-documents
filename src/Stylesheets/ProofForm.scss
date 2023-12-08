@@ -1,0 +1,67 @@
+.documentsForm-container {
+    padding: 40px;
+    width: 80vw;
+    margin: 0 auto;
+
+    .df-head {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .df-body {
+        border: 1px solid black;
+        padding: 20px;
+        margin: 20px 0px;
+        border-radius: 5px;
+        text-align: center;
+        
+        .input-proof {
+            width: 100%;
+        }
+    }
+
+    .group-header {
+        border: 1px solid black;
+        padding: 20px;
+        margin: 20px 0px;
+        border-radius: 5px;
+
+        .input-document {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px;
+
+            .add-btn {
+                // border: 2px solid #1976d2;
+                border-radius: 50%;
+                background-color: #1976d2;
+                color: white
+            }
+
+            .add-btn:hover {
+                border-radius: 50%;
+                background-color: #1976d2;
+                color: white
+            }
+
+            .disable-btn {
+                background-color: rgba(0, 0, 0, 0.26);
+                color: white;
+                border-radius: 50%;
+            }
+
+            .delete-btn,
+            .delete-btn:hover {
+                background-color: red;
+                color: white;
+                border-radius: 50%;
+            }
+        }
+    }
+
+}
